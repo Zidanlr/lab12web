@@ -1,0 +1,7 @@
+CRITICAL - 2023-06-21 22:55:52 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getVars()
+#0 C:\xampp\htdocs\lab16ci\ci4\system\CodeIgniter.php(832): App\Controllers\Post->update()
+#1 C:\xampp\htdocs\lab16ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\lab16ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\lab16ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\lab16ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
